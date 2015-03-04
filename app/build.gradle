@@ -1,0 +1,34 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.1"
+    defaultConfig {
+        applicationId 'cn.bjtu.nourriture'
+        minSdkVersion 14
+        targetSdkVersion 21
+        versionCode 1
+        versionName '1.0'
+    }
+    buildTypes {
+        release {
+            //runProguard false
+            //proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+    packagingOptions{
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/LICENSE.txt'
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':MaterialNavigationDrawerModule')
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.melnykov:floatingactionbutton:1.1.0'
+    compile 'org.apache.httpcomponents:httpmime:4.2.3'
+    compile files('libs/gson-2.2.4.jar')
+}

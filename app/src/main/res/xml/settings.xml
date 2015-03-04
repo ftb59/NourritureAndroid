@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:title="Mon EditText"
+        android:dialogTitle="Modification du texte"
+        android:dialogMessage="Entrez le nouveau texte"
+        android:defaultValue="Texte par défaut" />
+</PreferenceScreen>

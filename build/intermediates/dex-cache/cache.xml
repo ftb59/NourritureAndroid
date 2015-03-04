@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/ftb/Téléchargements/MaterialNavigationDrawer-master/MaterialNavigationDrawer/app/build/intermediates/exploded-aar/com.melnykov/floatingactionbutton/1.1.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="ee9ae2b87d57a33a7381c75d54db12bdf2995656">
+        <dex dex="/home/ftb/Téléchargements/MaterialNavigationDrawer-master/MaterialNavigationDrawer/app/build/intermediates/pre-dexed/debug/classes-b27575394d02f52387fbe00b71381fad3b0bb6c0.jar" />
+    </item>
+    <item
+        jar="/home/ftb/Téléchargements/MaterialNavigationDrawer-master/MaterialNavigationDrawer/app/build/intermediates/exploded-aar/MaterialNavigationDrawer/MaterialNavigationDrawerModule/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="eae00184333b96ddcf72afd26bca359e5eac5529">
+        <dex dex="/home/ftb/Téléchargements/MaterialNavigationDrawer-master/MaterialNavigationDrawer/app/build/intermediates/pre-dexed/debug/classes-82a7b6bad45d264d915330dfd4edc3633c0cf47f.jar" />
+    </item>
+    <item
+        jar="/home/ftb/Téléchargements/MaterialNavigationDrawer-master/MaterialNavigationDrawer/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/libs/internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/home/ftb/Téléchargements/MaterialNavigationDrawer-master/MaterialNavigationDrawer/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-5fc61ff12cb351f3b3a69ff2c8d9042ddb89b049.jar" />
+    </item>
+    <item
+        jar="/home/ftb/.gradle/caches/modules-2/files-2.1/uk.co.chrisjenx/calligraphy/1.2.0/291c60026ceeda3d4da8daac28b0517e4dc3d159/calligraphy-1.2.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="291c60026ceeda3d4da8daac28b0517e4dc3d159">
+        <dex dex="/home/ftb/Téléchargements/MaterialNavigationDrawer-master/MaterialNavigationDrawer/app/build/intermediates/pre-dexed/debug/calligraphy-1.2.0-b3575b30720f1bb8eb6b701d1771ddbd9776ffdc.jar" />
+    </item>
+    <item
+        jar="/home/ftb/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.2.3/118ae1bc7f3aeeddfe564f0edfd79c11d09d17d1/httpmime-4.2.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="118ae1bc7f3aeeddfe564f0edfd79c11d09d17d1">
+        <dex dex="/home/ftb/Téléchargements/MaterialNavigationDrawer-master/MaterialNavigationDrawer/app/build/intermediates/pre-dexed/debug/httpmime-4.2.3-5cf1b240a9145a3b00ce84bf8c9ba5e09f518450.jar" />
+    </item>
+    <item
+        jar="/home/ftb/Téléchargements/MaterialNavigationDrawer-master/MaterialNavigationDrawer/app/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/home/ftb/Téléchargements/MaterialNavigationDrawer-master/MaterialNavigationDrawer/app/build/intermediates/pre-dexed/debug/gson-2.2.4-a0c04fee4971c47bbb9ed421416a28935716c48c.jar" />
+    </item>
+    <item
+        jar="/home/ftb/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.2.2/b76bee23cd3f3ee9b98bc7c2c14670e821ddbbfd/httpcore-4.2.2.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="b76bee23cd3f3ee9b98bc7c2c14670e821ddbbfd">
+        <dex dex="/home/ftb/Téléchargements/MaterialNavigationDrawer-master/MaterialNavigationDrawer/app/build/intermediates/pre-dexed/debug/httpcore-4.2.2-a90efadcee04a7720e0a3d83b36f9d4494d70495.jar" />
+    </item>
+    <item
+        jar="/home/ftb/Téléchargements/MaterialNavigationDrawer-master/MaterialNavigationDrawer/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/home/ftb/Téléchargements/MaterialNavigationDrawer-master/MaterialNavigationDrawer/app/build/intermediates/pre-dexed/debug/classes-e43c4fd90d856cb00d675007d0634ece87d3826a.jar" />
+    </item>
+    <item
+        jar="/home/ftb/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/ftb/Téléchargements/MaterialNavigationDrawer-master/MaterialNavigationDrawer/app/build/intermediates/pre-dexed/debug/library-2.4.0-858f4f7e75f6990616bf4e9cf4ba8b360d9f84aa.jar" />
+    </item>
+    <item
+        jar="/home/ftb/Téléchargements/MaterialNavigationDrawer-master/MaterialNavigationDrawer/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/home/ftb/Téléchargements/MaterialNavigationDrawer-master/MaterialNavigationDrawer/app/build/intermediates/pre-dexed/debug/classes-fcf572c08c1526bfefd6c13d8a6273df81d62f03.jar" />
+    </item>
+    <item
+        jar="/home/ftb/Téléchargements/MaterialNavigationDrawer-master/MaterialNavigationDrawer/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
+        <dex dex="/home/ftb/Téléchargements/MaterialNavigationDrawer-master/MaterialNavigationDrawer/app/build/intermediates/pre-dexed/debug/classes-5cc88d48925da04571b941887b0dd50c95154b08.jar" />
+    </item>
+    <item
+        jar="/home/ftb/Téléchargements/MaterialNavigationDrawer-master/MaterialNavigationDrawer/app/build/intermediates/exploded-aar/com.github.markushi/android-ui/1.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="96436aef5f48b09aca1e0183dfcd7782aa580bd6">
+        <dex dex="/home/ftb/Téléchargements/MaterialNavigationDrawer-master/MaterialNavigationDrawer/app/build/intermediates/pre-dexed/debug/classes-0f191fecbfe650bcfd31d074d5c59f043d3e3af7.jar" />
+    </item>
+    <item
+        jar="/home/ftb/Documents/adt-bundle-linux-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/home/ftb/Téléchargements/MaterialNavigationDrawer-master/MaterialNavigationDrawer/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-33e3e770b4f0e7504dbea24c03580d5bded2ed24.jar" />
+    </item>
+
+</items>

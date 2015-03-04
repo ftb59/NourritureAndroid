@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:descendantFocusability="beforeDescendants">
+
+    <LinearLayout
+        android:id="@+id/card"
+        android:background="@drawable/card_background"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/article"
+
+            android:orientation="vertical"
+            android:descendantFocusability="afterDescendants">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:paddingRight="15dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/img" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:paddingLeft="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:id="@+id/pseudo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:text="Pseudo - Name" />
+
+
+                    <TextView
+                        android:id="@+id/hour"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/gray"
+                        android:textStyle="italic"
+                        android:text="Hour" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <include
+                layout="@layout/recipe_small"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/error" />
+
+            <TextView
+                android:paddingLeft="10dp"
+                android:paddingTop="8dp"
+                android:id="@+id/nblikescomment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/mainColorLight"
+                android:text="0 like - 0 comment" />
+
+            <View
+                android:id="@+id/separators"
+                android:layout_width="match_parent"
+                android:layout_height="1dip"
+                android:layout_marginTop="10dp"
+                android:background="#e0e0e0" />
+
+
+
+            <LinearLayout
+                android:id="@+id/buttons"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp"
+                android:paddingRight="0dp"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/like"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_action_favorite" />
+
+                <ImageButton
+                    android:id="@+id/comment"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:src="@android:drawable/stat_notify_chat" />
+
+                <ImageButton
+                    android:id="@+id/edit"
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_edit45" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

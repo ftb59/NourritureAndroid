@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_weight="1"
+    android:id="@+id/signinLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="✓"
+        android:id="@+id/sendSignin"
+        android:textColor="#fff"
+        android:background="@drawable/circle2"
+        android:layout_gravity="right"
+        android:layout_below="@+id/passwordSign"
+        android:layout_alignRight="@+id/passwordSign"
+        android:layout_alignEnd="@+id/passwordSign"
+        android:layout_marginTop="24dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/mainColorLight"
+        android:hint="Username/Email"
+        android:ems="10"
+        android:id="@+id/pseudoSign"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="@color/mainColorLight"
+        android:ems="10"
+        android:id="@+id/passwordSign"
+        android:hint="password"
+        android:layout_below="@+id/pseudoSign"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

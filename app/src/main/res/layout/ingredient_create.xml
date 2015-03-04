@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp">
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_marginTop="10dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/img"
+        android:layout_marginRight="5dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textColor="@color/black"
+        android:layout_alignTop="@+id/image"
+        android:layout_toRightOf="@+id/image"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/androidBlue"
+        android:layout_below="@id/top"
+        android:text="Ingredient name"
+        android:id="@+id/textView2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/ingredientInput"
+        android:layout_below="@id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ingredientInput"
+        android:id="@+id/tags"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginTop="12dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/androidBlue"
+            android:text="Tag"
+            android:id="@+id/textView3" />
+
+        <cn.bjtu.nourriture.Adapters.PredicateLayout
+            android:id="@+id/tagList"
+            android:layout_below="@id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tagList"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/tagInput" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/androidBlue"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="ADD"
+            android:id="@+id/add"
+            android:layout_marginLeft="20dp"
+            android:layout_alignBottom="@id/tagInput"
+            android:layout_toRightOf="@id/tagInput"/>
+
+
+        <TextView
+            android:layout_marginTop="12dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/androidBlue"
+            android:text="Blacklist"
+            android:layout_below="@id/add"
+            android:id="@+id/textView4" />
+
+        <cn.bjtu.nourriture.Adapters.PredicateLayout
+            android:id="@+id/blList"
+            android:layout_below="@id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/blList"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/blInput" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/androidBlue"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="ADD"
+            android:id="@+id/bladd"
+            android:layout_marginLeft="20dp"
+            android:layout_alignBottom="@id/blInput"
+            android:layout_toRightOf="@id/blInput"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tags"
+        android:layout_margin="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/androidBlue"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="OK"
+            android:id="@+id/valid"
+            android:layout_alignParentRight="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/androidBlue"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="CANCEL"
+            android:id="@+id/cancel"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/valid"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="REMOVE"
+            android:id="@+id/remove"/>
+
+    </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>
